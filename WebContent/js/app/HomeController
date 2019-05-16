@@ -1,0 +1,7 @@
+demoApp.controller('HomeController',['$scope',function($scope){
+	console.log("in controller calc")
+	$scope.calculate=function(){
+		console.log("yeah")
+		console.log($scope.parameters);
+	}
+}]);

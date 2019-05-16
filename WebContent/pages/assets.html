@@ -1,0 +1,18 @@
+<div resize>
+
+<p class='text-center'><b>U heeft de volgende beleggingen:</b></p>
+
+<table class="table table-striped">
+   <tr>
+    <th>Naam belegging</th>
+    <th>Waarde</th>
+   </tr>
+   <tr ng-repeat="pension in pensions">
+    <td>{{ pension.name}}</td>
+    <td>{{ pension.value}}</td>
+   </tr>
+  </table>
+  
+  <p class='text-center'><b>De totale waarde van de beleggingen bedraagt: {{total}}</b></p>
+
+</div>
